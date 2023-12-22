@@ -1,0 +1,31 @@
+.sidebar{
+    color: white;
+    position: fixed;
+    top: 56px;
+    z-index: 1;
+    bottom:0px;
+    left: 0px;
+    
+}
+    
+.shorts-button {
+    
+}
+
+.sidebar-tab{
+    
+    margin-bottom: 1px;
+    padding-top:10px; ;
+    padding-right: 20px;
+    padding-left: 10px;
+    width: 50px;
+    height: 80px;
+    cursor: pointer;
+    background-color: rgb(13, 30, 36);
+}
+
+.sidebar-tab:hover {
+    border-radius: 12px;
+    background-color: rgb(21, 49, 59);
+    
+}

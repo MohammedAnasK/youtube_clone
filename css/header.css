@@ -1,0 +1,181 @@
+.header{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(13, 30, 36);
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    height: 56px;
+    z-index: 1;
+    
+    
+
+}
+
+.left-section{
+    display: flex;
+    flex: 1;
+    width: 100px;
+    background-color: transparent;
+    align-items: center;
+
+
+}
+
+.menu-button{
+    padding-left: 15px;
+    height: 60px;
+    width: 60px;
+    font-size: 45px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.youtube-button{
+    margin-left: 15px;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+
+.search {
+    
+    
+    color: white;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: transparent;
+    flex: 1;
+    font-size: 18px;
+    padding-left: 10px;
+    height: 30px;
+    width: 0;
+    
+    
+    
+    }
+
+.search::placeholder{
+    font-size: 16px;
+    color: white;
+    
+}
+
+.search:active{
+    
+    
+}
+
+
+
+
+
+.middel-section{
+    flex: 1;
+    
+    margin-left: 15px;
+    margin-right: 35px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    
+}
+.search-button{
+    
+    width: 60px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(20, 45, 54);
+    border: none;
+    cursor: pointer;
+
+}
+.search-button-icon{
+    padding-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.voice-button{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(20, 45, 54) ;
+    cursor: pointer;
+
+
+}
+
+.voice-button-icon{
+    width: 15px;
+    height: 23px;
+}
+
+.right-section{
+    
+    flex: 1;
+    width: 200px;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+.add-viedio{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+.add-viedio-icon{
+    height: 40px;
+
+    
+}
+
+.notification-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.notification-icon{
+    height: 40px;
+}
+
+.profile{
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+
+}
+
+.profile-picture{
+    position: static;
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
