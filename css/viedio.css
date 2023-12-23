@@ -1,21 +1,25 @@
 .viedio-grid{
     display:  grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    
     column-gap: 20px;
     row-gap: 30px;
-    mini-width: 300px;
+    
+    min-width: 300px;
     
 }
 
 .main-viedio-div{
-    display: inline-block;
+    
     vertical-align: top;
     cursor: pointer;
+    
     min-width: 300px;
 }
 
 .thumb-row{
-    
+    z-index: -1;
     position: relative;
 
 }
