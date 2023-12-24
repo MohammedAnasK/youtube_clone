@@ -8,7 +8,7 @@
     position: fixed;
     top:0px;
     left: 0px;
-    right: 0px;
+    right: 25px;
     height: 56px;
     z-index: 1;
     
@@ -27,9 +27,9 @@
 }
 
 .menu-button{
-    padding-left: 15px;
-    height: 60px;
-    width: 60px;
+    padding-left: 28px;
+    height: 70px;
+    width: 70px;
     font-size: 45px;
     color: white;
     background-color: transparent;
@@ -39,7 +39,8 @@
 }
 
 .youtube-button{
-    margin-left: 15px;
+    margin-left: 41px ;
+    
     display: flex;
     background-color: transparent;
     border: none;
@@ -53,7 +54,7 @@
 
 
 .search {
-    
+
     
     color: white;
     border: none;
@@ -70,6 +71,8 @@
     
     }
 
+
+
 .search::placeholder{
     font-size: 16px;
     color: white;
@@ -77,7 +80,7 @@
 }
 
 .search:active{
-    
+
     
 }
 
@@ -96,7 +99,7 @@
     
 }
 .search-button{
-    
+    position: relative;
     width: 60px;
     height: 40px;
     border-top-right-radius: 20px;
@@ -104,12 +107,36 @@
     background-color: rgb(20, 45, 54);
     border: none;
     cursor: pointer;
+    touch-action: none;
+    
 
+}
+.search-button .tool-tip{
+    position: absolute;
+    color: white;
+    font-size: larger;
+    background-color:rgb(38, 75, 88);
+    padding-left: 8px;
+    padding-right: 8px ;
+    padding-top: 4px ;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    bottom: -36px;;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+
+}
+
+.search-button:hover .tool-tip{
+    opacity: 1;
 }
 .search-button-icon{
     padding-right: 5px;
     width: 20px;
     height: 20px;
+    
 }
 
 .voice-button{
@@ -120,7 +147,36 @@
     border: none;
     background-color: rgb(20, 45, 54) ;
     cursor: pointer;
+    position: relative;
+    
 
+
+}
+
+.voice-button .tool-tip{
+    position: absolute;
+    width: 180px;
+    color: white;
+    font-size: larger;
+    background-color:rgb(38, 75, 88);
+    padding-left: 8px;
+    padding-right: 8px ;
+    padding-top: 4px ;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    bottom: -36px;;
+    left: -70px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    
+    
+    
+
+}
+
+.voice-button:hover .tool-tip{
+    opacity: 1;
 
 }
 
@@ -132,42 +188,98 @@
 .right-section{
     
     flex: 1;
-    width: 200px;
-    justify-content: right;
     display: flex;
+    justify-content: right;
     align-items: center;
+    width: 200px;
+    
+    
 }
 
 .add-viedio{
+    
+    display: flex;
     background-color: transparent;
     border: none;
     cursor: pointer;
+    position: relative;
     
 }
 .add-viedio-icon{
+    display: flex;
     height: 40px;
 
     
 }
 
+.add-viedio .tool-tip{
+    position: absolute;
+    color: white;
+    font-size: larger;
+    background-color:rgb(38, 75, 88);
+    padding-left: 8px;
+    padding-right: 8px ;
+    padding-top: 4px ;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    bottom: -36px;;
+    left: -8px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+
+}
+
+.add-viedio:hover .tool-tip{
+    opacity: 1;
+}
+
 .notification-button{
+    margin-left: 50px;
+    display: flex;
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding-left: 20px;
+    position: relative;
+    
 }
 
 .notification-icon{
     height: 40px;
 }
 
+.notification-button .tool-tip{
+    position: absolute;
+    color: white;
+    font-size: larger;
+    background-color:rgb(38, 75, 88);
+    padding-left: 8px;
+    padding-right: 8px ;
+    padding-top: 4px ;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    bottom: -36px;;
+    left: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+
+}
+
+.notification-button:hover .tool-tip{
+    opacity: 1;
+}
+
 .profile{
+    margin-left: 50px;
+    display: flex;
     border: none;
     border-radius: 25px;
     height: 50px;
     width: 50px;
     cursor: pointer;
-    margin-left: 20px;
+    
+    
     
 
 }
