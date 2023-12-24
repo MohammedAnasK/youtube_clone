@@ -1,4 +1,19 @@
-
+.viedio-grid{
+    display:  grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    
+    column-gap: 20px;
+    row-gap: 30px;
+    
+    min-width: 300px;
+    margin-right: 30px;
+    margin-top: 20px;
+    
+}
+@media (max-width:1080px) {
+    grid-template-columns: 1fr;
+}
 
 .main-viedio-div{
     
