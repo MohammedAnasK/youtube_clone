@@ -12,11 +12,9 @@
     
 }
 @media (max-width:1080px) {
-    grid-template-columns: 1fr;
+    repeat(auto-fill, minmax( 1fr));
 }
-@media (min-width:1080px) {
-     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
+
 
 
 .main-viedio-div{
